@@ -2,7 +2,10 @@ class Produto:
     def __init__(
         self, nome: str, codigo: str, preco: float, quantidade: int
     ) -> None:
-        pass
+        self.__nome = nome
+        self.__codigo = codigo
+        self.__preco = preco
+        self.__quantidade = quantidade
 
     def get_preco(self) -> float:
         pass
